@@ -1,0 +1,20 @@
+{
+  "name": "xinhuo-xiangchuan-skills",
+  "description": "薪火相传 — Confucian pedagogy (Lunyu + Daxue) for AI teaching. Teach so the flame outlives you: learner-centered, sequenced, provoke-before-give.",
+  "owner": {
+    "name": "WUJI",
+    "url": "https://github.com/wuji-labs"
+  },
+  "plugins": [
+    {
+      "name": "xinhuo-xiangchuan",
+      "description": "薪火相传 — passing the flame. Infuses Confucian pedagogy into AI so it does not just answer correctly but teaches so the learner actually learns.",
+      "version": "1.1.0",
+      "source": "./",
+      "author": {
+        "name": "WUJI",
+        "url": "https://github.com/wuji-labs"
+      }
+    }
+  ]
+}

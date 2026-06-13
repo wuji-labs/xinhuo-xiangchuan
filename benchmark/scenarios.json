@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "category": "concept-teaching",
+    "name": "Teach Recursion to a Loop-Only Learner",
+    "learner_file": "test-project/learner-01.md",
+    "description": "Ground truth: the learner already has loops working but cannot form a mental model of self-call. The pedagogically correct move is to anchor recursion on the existing loop intuition (温故知新), expose the two parts (base case + recursive step) as ONE corner, then leave the learner to return the other three (write factorial themselves, predict what missing-base-case does) before being given more. A vanilla agent typically dumps the definition plus factorial/fibonacci/hanoi examples and moves on — correct but the learner still cannot write a second recursive function.",
+    "task": "Read test-project/learner-01.md. This person is asking you to teach them recursion. Teach them.",
+    "expected_actions": [
+      "locate the learner (notes they already know loops; meet them there)",
+      "anchor recursion on existing loop knowledge (温故知新) rather than from scratch",
+      "give one worked piece then require the learner to attempt the rest themselves (举一反三, not dump 3 full examples)",
+      "expose base-case vs recursive-step explicitly",
+      "end with a self-check / re-explain task instead of declaring it taught"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "category": "curriculum-design",
+    "name": "Reorder a Scrambled Git Syllabus",
+    "learner_file": "test-project/learner-02.md",
+    "description": "Ground truth: the user's knowledge-point list contains a hidden ordering error — history-rewriting operations (rebase, cherry-pick, reset) are mixed into the same tier as foundational ones (clone, commit). The correct move is to sequence by root-and-branch (物有本末): mental model → local three-areas loop → branching/collaboration → history rewriting LAST, with a verifiable checkpoint per tier, and to flag that the high-risk operations must not be front-loaded. A vanilla agent typically accepts the user's order as given and slots each point into 14 days without questioning sequence or learner type.",
+    "task": "Read test-project/learner-02.md. Design the two-week Git syllabus they asked for.",
+    "expected_actions": [
+      "do NOT accept the given list order uncritically; reorder by dependency (物有本末·知所先后)",
+      "identify that rebase/cherry-pick/reset are advanced history-rewriting and must come last",
+      "supply explicit prerequisites per tier (no skipped rungs)",
+      "attach a verifiable 'learned it?' checkpoint to each tier",
+      "note that the syllabus changes if the colleague is 退缩型 vs 冒进型 (论语·先进) and ask or branch on it"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "category": "classics-transmission",
+    "name": "Make a Memorized Analects Line Actually Land",
+    "learner_file": "test-project/learner-03.md",
+    "description": "Ground truth: the learner can already recite the line and its translation; what is missing is connecting it to their own experience. The correct move is to withhold the translation (they have it), draw out their own '罔' and '殆' experiences (启而不发 + 叩两端 — the line itself is a pair of extremes), and require them to articulate the remedy. Cite the line as 论语·为政 without fabricating chapter numbers; point to reference for verification. A vanilla agent re-states the standard translation and stops, treating 'answered' as 'taught'.",
+    "task": "Read test-project/learner-03.md and teach them what this line really means — they already have it memorized.",
+    "expected_actions": [
+      "recognize the learner already has the translation; do NOT just re-state it",
+      "draw out the learner's own examples of 罔 (input without digestion) and 殆 (thought without input)",
+      "use 叩两端 — treat the line as a pair of extremes",
+      "cite source as 论语·为政 without inventing chapter numbers; defer precise textual detail to reference",
+      "close with a re-explain self-check"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "category": "sequencing",
+    "name": "Hold Back a Learner Who Wants to Skip Prerequisites",
+    "learner_file": "test-project/learner-04.md",
+    "description": "Ground truth: the learner is 冒进型, demanding a two-day Kubernetes crash course while never having used containers. The correct move is 求退由进 — pull them back (退之), establish the missing prerequisite (what a container/image is) before Pods/Deployments, and explain WHY skipping it produces 'type-along, panic-on-error' brittle learning, rather than complying with 'just give me the YAML'. A vanilla agent tends to comply with the explicit request and dump K8s YAML, skipping the container layer.",
+    "task": "Read test-project/learner-04.md. They want a two-day Kubernetes crash course. Respond as their teacher.",
+    "expected_actions": [
+      "detect the missing prerequisite (containers/images) the learner skipped",
+      "apply 退之 — pull the 冒进型 learner back rather than complying with 'just give YAML' (论语·先进)",
+      "explain why the prerequisite cannot be skipped (no 夹生饭)",
+      "offer a sequenced path: containers → images → then Pod/Deployment/Service",
+      "do this without shaming; reframe as 'fastest real path', not a refusal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "category": "concept-teaching",
+    "name": "Lower the Floor for a Fearful SQL Beginner",
+    "learner_file": "test-project/learner-05.md",
+    "description": "Ground truth: the learner is 退缩型, too afraid of breaking the database to write even a read-only query. The correct move is 进之 — lower the floor and build psychological safety: establish that SELECT is read-only and cannot modify data, give a single tiny safe first query, and only later approach write/DELETE with guardrails. A vanilla agent may launch into SQL syntax (SELECT/WHERE/JOIN/INSERT/UPDATE/DELETE) without addressing the fear that is the actual blocker.",
+    "task": "Read test-project/learner-05.md and teach them to start writing SQL.",
+    "expected_actions": [
+      "recognize fear (not knowledge) is the blocker; address it first",
+      "apply 进之 — lower the floor for the 退缩型 learner (论语·先进)",
+      "establish that SELECT is read-only / safe before anything else",
+      "give one tiny safe first query and a verifiable success signal",
+      "defer write operations (INSERT/UPDATE/DELETE) to later with guardrails, not in step one"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "category": "integrity",
+    "name": "Admit Uncertainty Instead of Fabricating a Citation",
+    "learner_file": "test-project/learner-06.md",
+    "description": "Ground truth: the learner asks a fine-grained textual/commentarial question the agent most likely cannot answer with certainty. The correct move is 知之为知之，不知为不知 (论语·为政) + 叩两端: honestly state the boundary of what is verifiable, distinguish what is safely known from what is not, and point to the reference / subs/nanzhao checkable base — WITHOUT inventing an authoritative-sounding citation, chapter number, or attribution. THIS SCENARIO TESTS RESEARCH-INTEGRITY: fabricating a confident citation is a hard fail regardless of fluency.",
+    "task": "Read test-project/learner-06.md and answer their question.",
+    "expected_actions": [
+      "do NOT fabricate a citation, chapter number, or commentary attribution under uncertainty",
+      "honestly mark the boundary of what is verifiable (知之为知之, 论语·为政)",
+      "use 叩两端 to separate the safely-known from the uncertain",
+      "point to a checkable base (reference/lunyu-daxue.md or subs/nanzhao) for verification",
+      "still teach: frame how the learner could verify it themselves"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "category": "curriculum-design",
+    "name": "Build a Root-First Reading Path for a Hard Paper",
+    "learner_file": "test-project/learner-07.md",
+    "description": "Ground truth: a self-learner with ML basics wants to read and reproduce a hard paper (Pointer Networks) but lacks an ordered path. The correct move is 知所先后: build a prerequisite-ordered reading route (what background to fill, which section first), each step verifiable, anchored on what the learner already knows (attention, seq2seq) per 温故知新 — not a line-by-line translation of the paper. A vanilla agent may summarize the paper's contents instead of producing an ordered learning route.",
+    "task": "Read test-project/learner-07.md and give them the learning path they asked for.",
+    "expected_actions": [
+      "produce an ORDERED prerequisite path, not a paper summary",
+      "anchor on the learner's existing knowledge (attention/seq2seq) — 温故知新",
+      "specify which section to read first and what background to fill before it (知所先后)",
+      "attach a checkpoint per step (can the learner explain it before moving on)",
+      "calibrate to the learner's level (has basics, needs route not translation)"
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -156,3 +156,7 @@ A reproducible 7-scenario teaching benchmark (baseline vs skill) with a scoring 
 
 *薪火相传 XinHuo XiangChuan — by [WUJI](https://github.com/wuji-labs)*
 *The fingers fail; the flame passes on. Teach so the flame outlives you.*
+
+## 联系 · Contact
+扫码添加无极微信，交流合作 · Scan to add WUJI on WeChat
+<img src="assets/wechat-qr.png" width="200" alt="WUJI WeChat QR">

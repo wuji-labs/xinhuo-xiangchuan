@@ -8,6 +8,11 @@
 
 **[🇨🇳 中文](README.zh-CN.md)** | **[🇺🇸 English](README.md)** | **[🇯🇵 日本語](README.ja.md)** | **🇰🇷 한국어** | **[🇪🇸 Español](README.es.md)** | **[🇧🇷 Português](README.pt.md)** | **[🇫🇷 Français](README.fr.md)**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">QR 코드를 스캔하여 작성자 WeChat 추가 · Scan to add the author on WeChat</p>
+
 ---
 
 > 이것은 화하(華夏)의 도맥(道脈)이 세계 오픈소스 커뮤니티에 바치는 열 가지 선물 중 하나입니다(叩兩端〔양 끝을 두드리다〕· 무극의 樞纽〔결절점〕).

@@ -8,6 +8,11 @@
 
 **[🇨🇳 中文](README.zh-CN.md)** | **[🇺🇸 English](README.md)** | **🇯🇵 日本語** | **[🇰🇷 한국어](README.ko.md)** | **[🇪🇸 Español](README.es.md)** | **[🇧🇷 Português](README.pt.md)** | **[🇫🇷 Français](README.fr.md)**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">QRコードをスキャンして作者のWeChatを追加 · Scan to add the author on WeChat</p>
+
 ---
 
 > これは華夏の道脈が世界のオープンソースコミュニティに捧げる十の贈り物のひとつです（叩兩端〔両端を叩く〕・無極の樞纽〔結節点〕）。

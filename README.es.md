@@ -8,6 +8,11 @@
 
 **[🇨🇳 中文](README.zh-CN.md)** | **[🇺🇸 English](README.md)** | **[🇯🇵 日本語](README.ja.md)** | **[🇰🇷 한국어](README.ko.md)** | **🇪🇸 Español** | **[🇧🇷 Português](README.pt.md)** | **[🇫🇷 Français](README.fr.md)**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">Escanear para agregar al autor en WeChat · Scan to add the author on WeChat</p>
+
 ---
 
 > Este es uno de los diez regalos que el linaje de sabiduría china ofrece a la comunidad mundial de código abierto (叩兩端〔golpear ambos extremos〕· nudo del Wuji).

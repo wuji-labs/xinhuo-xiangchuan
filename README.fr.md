@@ -8,6 +8,11 @@
 
 **[🇨🇳 中文](README.zh-CN.md)** | **[🇺🇸 English](README.md)** | **[🇯🇵 日本語](README.ja.md)** | **[🇰🇷 한국어](README.ko.md)** | **[🇪🇸 Español](README.es.md)** | **[🇧🇷 Português](README.pt.md)** | **🇫🇷 Français**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">Scannez pour ajouter l'auteur sur WeChat · Scan to add the author on WeChat</p>
+
 ---
 
 > Ceci est l'un des dix présents que le courant de sagesse chinois offre à la communauté mondiale de l'open source (叩兩端〔frapper les deux extrémités〕· nœud du Wuji).

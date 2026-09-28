@@ -9,6 +9,11 @@
 
 **[🇨🇳 简体中文](README.zh-CN.md)** · **[🇺🇸 English](README.md)** · **[🇯🇵 日本語](README.ja.md)** · **[🇰🇷 한국어](README.ko.md)** · **[🇪🇸 Español](README.es.md)** · **[🇧🇷 Português](README.pt.md)** · **[🇫🇷 Français](README.fr.md)**
 
+<p align="center">
+  <img src="assets/wechat-personal.jpg" alt="Add WUJI on WeChat" width="200">
+</p>
+<p align="center">扫码添加作者微信 · Scan to add the author on WeChat</p>
+
 > 这是华夏道脉献给世界开源社区的十件礼物之一（叩兩端 · 无极樞纽）。
 > 我们不立华夏本位，不主张华夏文明优于任何文明；我们只是先从自己最熟悉的道脉开始，
 > 把它打磨成一件可用的工具，放到人类共同的开源工具架上。未来还会有希腊、那烂陀、
@@ -156,7 +161,3 @@ A reproducible 7-scenario teaching benchmark (baseline vs skill) with a scoring 
 
 *薪火相传 XinHuo XiangChuan — by [WUJI](https://github.com/wuji-labs)*
 *The fingers fail; the flame passes on. Teach so the flame outlives you.*
-
-## 联系 · Contact
-扫码添加无极微信，交流合作 · Scan to add WUJI on WeChat
-<img src="assets/wechat-qr.png" width="200" alt="WUJI WeChat QR">
